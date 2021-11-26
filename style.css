@@ -92,9 +92,8 @@ footer {
 }
 
 #commands {
-  flex-basis: 150px;
+  flex-basis: 200px;
   height: 100%;
-  background-color: red;
 }
 
 #tool-bar {
@@ -103,7 +102,7 @@ footer {
 }
 
 #end-call {
-  flex-basis: 150px;
+  flex-basis: 200px;
   height: 100%;
   background-color: red;
 }
@@ -120,6 +119,7 @@ footer ul {
 footer ul li {
   align-items: center;
   color: white;
+  cursor: pointer;
   text-align: center;
   margin: 5px;
   font-size: 12px;
