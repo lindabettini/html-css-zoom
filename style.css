@@ -10,11 +10,12 @@ img {
 }
 
 body {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   font-family: "Lato", sans-serif;
   background-color: black;
-  justify-content: space-between;
 }
 
 /******* Header *******/
@@ -27,13 +28,12 @@ header {
 /****** Main ******/
 
 main {
-  background-color: red;
   flex-grow: 1;
 }
 
 /******* Footer *******/
 
 footer {
-  flex-basis: 150px;
+  flex-basis: 100px;
   background-color: darkgray;
 }
