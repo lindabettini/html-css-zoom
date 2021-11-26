@@ -70,6 +70,21 @@ main {
   height: 120px;
   width: 180px;
   margin: 5px 2px;
+  position: relative;
+}
+
+.identify {
+  width: 40%;
+  color: white;
+  font-size: 10px;
+  padding: 3px;
+  background-color: rgba(211, 211, 211, 0.3);
+  position: absolute;
+  bottom: 0;
+}
+
+#zoom-room .user-identify i.fa-microphone-slash {
+  margin-right: 5px;
 }
 
 /******* FOOTER *******/
