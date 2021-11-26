@@ -7,6 +7,7 @@
 
 img {
   max-width: 100%;
+  max-height: 100%;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
 
 /****** Utilities  *******/
 
-/******* Header *******/
+/******* HEADER *******/
 
 header {
   flex-basis: 80px;
@@ -39,19 +40,36 @@ header {
 #expand {
   margin: 5px 10px;
   color: white;
-  padding: 5px 10px;
+  padding: 4px 8px;
   background-color: grey;
   border-radius: 5px;
   cursor: pointer;
 }
 
-/****** Main ******/
+/****** MAIN ******/
 
 main {
   flex-grow: 1;
 }
 
-/******* Footer *******/
+/* Section Zoom Room  */
+
+#zoom-room {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  overflow-y: auto;
+}
+
+#zoom-room .user-window {
+  height: 120px;
+  width: 180px;
+  margin: 5px 2px;
+}
+
+/******* FOOTER *******/
 
 footer {
   flex-basis: 100px;
