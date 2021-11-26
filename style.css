@@ -14,11 +14,26 @@ body {
   flex-direction: column;
   font-family: "Lato", sans-serif;
   background-color: black;
+  justify-content: space-between;
 }
 
-/****** Header ******/
+/******* Header *******/
 
 header {
-  height: 80px;
+  flex-basis: 80px;
   background-color: white;
+}
+
+/****** Main ******/
+
+main {
+  background-color: red;
+  flex-grow: 1;
+}
+
+/******* Footer *******/
+
+footer {
+  flex-basis: 150px;
+  background-color: darkgray;
 }
