@@ -73,16 +73,8 @@ main {
   position: relative;
 }
 
-.user-window:hover {
-  cursor: pointer;
-}
-
 .user-window img {
   border: 2px solid transparent;
-}
-
-.user-window img:hover {
-  border: 2px solid rgba(250, 250, 250, 0.637);
 }
 
 .user-identify {
@@ -96,8 +88,17 @@ main {
   left: 2px;
 }
 
-#zoom-room .user-window .user-identify i.fa-microphone-slash {
+.user-identify i.fa-microphone-slash {
   margin-right: 5px;
+}
+
+/* Hover effects on User-Window   */
+.user-window:hover {
+  cursor: pointer;
+}
+
+.user-window img:hover {
+  border: 2px solid rgba(250, 250, 250, 0.637);
 }
 
 /******* FOOTER *******/
