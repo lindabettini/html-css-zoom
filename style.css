@@ -105,6 +105,9 @@ footer {
   flex-basis: 200px;
   height: 100%;
   background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 /* Footer Lists */
@@ -135,4 +138,14 @@ footer ul li i {
 
 footer ul li i.small-i {
   font-size: 14px;
+}
+
+/* End-Call Button  */
+
+#btn-end-call {
+  height: 100%;
+  width: 100px;
+  background-color: thistle;
+  text-align: center;
+  align-items: center;
 }
