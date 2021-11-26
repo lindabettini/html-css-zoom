@@ -73,7 +73,19 @@ main {
   position: relative;
 }
 
-.identify {
+.user-window:hover {
+  cursor: pointer;
+}
+
+.user-window img {
+  border: 2px solid transparent;
+}
+
+.user-window img:hover {
+  border: 2px solid rgba(250, 250, 250, 0.637);
+}
+
+.user-identify {
   width: 40%;
   color: white;
   font-size: 10px;
@@ -83,7 +95,7 @@ main {
   bottom: 0;
 }
 
-#zoom-room .user-identify i.fa-microphone-slash {
+#zoom-room .user-window .user-identify i.fa-microphone-slash {
   margin-right: 5px;
 }
 
