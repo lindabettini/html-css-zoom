@@ -28,12 +28,6 @@ ul {
   list-style-type: none;
 }
 
-/****** Utilities  *******/
-
-footer ul li i.small-i {
-  font-size: 14px;
-}
-
 /******* HEADER *******/
 
 header {
@@ -60,6 +54,7 @@ header {
 main {
   flex-grow: 1;
   overflow-y: auto;
+  margin: 5px auto 5px;
 }
 
 /* Section Zoom Room  */
@@ -82,67 +77,62 @@ main {
 /* Footer's Container  */
 
 footer {
-  flex-basis: 100px;
-  width: 90vw;
+  flex-basis: 120px;
+  width: 1200px;
+  margin: 0 auto;
   background-color: rgb(34, 34, 34);
+  display: flex;
 }
 
 #footer-wrap {
   height: 100%;
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 #commands {
-  flex-basis: 200px;
+  flex-basis: 150px;
+  height: 100%;
+  background-color: red;
 }
 
 #tool-bar {
   flex-grow: 1;
+  height: 100%;
 }
 
 #end-call {
-  flex-basis: 200px;
-  position: relative;
+  flex-basis: 150px;
+  height: 100%;
+  background-color: red;
 }
 
-/* Footer Lists  */
+/* Footer Lists */
 
 footer ul {
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
 
 footer ul li {
+  align-items: center;
   color: white;
+  text-align: center;
+  margin: 5px;
   font-size: 12px;
-  margin: 5px 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
 }
 
-footer ul i {
-  margin-bottom: 5px;
-  font-size: 25px;
+footer ul li i {
+  font-size: 24px;
+  margin: 5px;
 }
 
-footer ul li:hover {
-  color: lightseagreen;
-  cursor: pointer;
-}
-
-/* Footer btn end-call  */
-
-#btn-end-call {
-  height: 100%;
-  width: 100px;
-  background-color: grey;
-  position: absolute;
-  right: 0;
+footer ul li i.small-i {
+  font-size: 14px;
 }
