@@ -24,6 +24,10 @@ body {
   background-color: black;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /****** Utilities  *******/
 
 /******* HEADER *******/
@@ -34,11 +38,11 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin: 5px 10px;
 }
 
 #speaker-view,
 #expand {
-  margin: 5px 10px;
   color: white;
   padding: 4px 8px;
   background-color: grey;
@@ -72,5 +76,40 @@ main {
 
 footer {
   flex-basis: 100px;
-  background-color: darkgray;
+  margin: 15px 50px 0 50px;
+  background-color: rgb(34, 34, 34);
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer ul li {
+  color: white;
+  font-size: 12px;
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul i {
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+footer ul li i.small-i {
+  font-size: 14px;
+}
+
+footer ul li:hover {
+  color: lightseagreen;
+  cursor: pointer;
 }
