@@ -1,4 +1,4 @@
-/******* Generics  ******/
+vcn                     /******* Generics  ******/
 * {
   margin: 0;
   padding: 0;
@@ -64,6 +64,7 @@ main {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  height: 100%;
 }
 
 #zoom-room .user-window {
