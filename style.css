@@ -12,7 +12,7 @@ img {
 
 body {
   font-family: "Lato", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 #wrapper {
@@ -65,7 +65,7 @@ main {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  height: 100%;
+  max-width: 1200px;
 }
 
 #zoom-room .user-window {
@@ -115,31 +115,7 @@ footer {
   margin: 0 auto;
   background-color: rgb(34, 34, 34);
   display: flex;
-}
-
-#footer-wrap {
-  height: 100%;
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
-}
-
-#commands {
-  flex-basis: 200px;
-  height: 100%;
-}
-
-#tool-bar {
-  flex-grow: 1;
-  height: 100%;
-}
-
-#end-call {
-  flex-basis: 200px;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
 }
 
 /* Footer Lists */
@@ -152,7 +128,6 @@ footer ul {
 }
 
 footer ul li {
-  align-items: center;
   color: white;
   cursor: pointer;
   text-align: center;
@@ -192,7 +167,6 @@ footer ul li:hover {
   flex-direction: row;
   justify-content: center;
 }
-
 #btn-end-call:hover {
   background-color: lightgrey;
 }
