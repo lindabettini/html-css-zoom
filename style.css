@@ -69,10 +69,11 @@ main {
 }
 
 #zoom-room .user-window {
-  height: 120px;
-  width: 180px;
+  height: 130px;
+  width: 220px;
   margin: 5px 2px;
   position: relative;
+  object-fit: cover;
 }
 
 .user-window img {
