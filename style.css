@@ -31,7 +31,8 @@ ul {
 /******* HEADER *******/
 
 header {
-  flex-basis: 80px;
+  flex-basis: 50px;
+  flex-shrink: 0;
   align-items: flex-end;
   display: flex;
   flex-direction: row;
@@ -107,7 +108,8 @@ main {
 /* Footer's Container  */
 
 footer {
-  flex-basis: 120px;
+  flex-basis: 80px;
+  flex-shrink: 0;
   width: 1200px;
   margin: 0 auto;
   background-color: rgb(34, 34, 34);
